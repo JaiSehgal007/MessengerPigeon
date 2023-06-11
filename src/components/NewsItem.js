@@ -1,9 +1,7 @@
 import React from 'react';
 
-class NewsItem extends React.Component {
-
-    render() {
-        let { title, description, imageurl, newsurl, author, date, source } = this.props;
+const NewsItem=(props)=> {
+        let { title, description, imageurl, newsurl, author, date, source } =props;
         return (
             <div className='my-3' >
                 <div className="card">
@@ -25,7 +23,6 @@ class NewsItem extends React.Component {
                 </div>
             </div>
         )
-    }
 }
 
 
