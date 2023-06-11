@@ -6,7 +6,7 @@ class spinner extends React.Component {
 
     render() {
         return (
-            <div className='text-center' style={{zIndex:5}}>
+            <div className='text-center my-5' style={{zIndex:5}}>
                 <img src={Loading} alt="loading" />
             </div>
         )
