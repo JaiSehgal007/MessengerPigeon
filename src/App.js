@@ -32,7 +32,6 @@ class App extends React.Component {
         height={3}
         color='#f11946'
         progress={this.state.progress}
-        onLoaderFinished={() => setProgress(0)}
       />
           <Routes>
             <Route exact path='/' element={<News apiKey={this.apiKey} setProgress={this.setProgress} key='home' pageSize={this.pageSize} country='in' category='general' />}></Route>
